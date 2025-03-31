@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5F41E4;
+  background:rgb(8, 0, 43);
 }
 
 #root {
@@ -169,7 +169,7 @@ body {
   cursor: pointer;
   margin-top: 2.19rem;
   border-radius: 0.31rem;
-  background: #5F41E4;
+  background:rgb(8, 0, 43);
   transition: 0.3s ease;
 }
 

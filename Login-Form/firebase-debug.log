@@ -1,0 +1,47 @@
+[debug] [2025-03-28T16:01:49.622Z] ----------------------------------------------------------------------
+[debug] [2025-03-28T16:01:49.625Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aarchi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-03-28T16:01:49.626Z] CLI Version:   13.34.0
+[debug] [2025-03-28T16:01:49.626Z] Platform:      win32
+[debug] [2025-03-28T16:01:49.626Z] Node Version:  v22.12.0
+[debug] [2025-03-28T16:01:49.626Z] Time:          Fri Mar 28 2025 21:31:49 GMT+0530 (India Standard Time)
+[debug] [2025-03-28T16:01:49.627Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-28T16:01:49.918Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-28T16:01:49.919Z] > authorizing via signed-in user (saveaarchi19@gmail.com)
+[debug] [2025-03-28T16:01:49.919Z] [iam] checking project ai-resume-screener-45dc1 for permissions ["firebase.projects.get"]
+[debug] [2025-03-28T16:01:49.920Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:49.920Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:49.922Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-resume-screener-45dc1:testIamPermissions [none]
+[debug] [2025-03-28T16:01:49.922Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-resume-screener-45dc1:testIamPermissions x-goog-quota-user=projects/ai-resume-screener-45dc1
+[debug] [2025-03-28T16:01:49.922Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-resume-screener-45dc1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-28T16:01:51.810Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-resume-screener-45dc1:testIamPermissions 200
+[debug] [2025-03-28T16:01:51.810Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-resume-screener-45dc1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-28T16:01:51.811Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:51.811Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:51.812Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/ai-resume-screener-45dc1 [none]
+[debug] [2025-03-28T16:01:52.204Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/ai-resume-screener-45dc1 200
+[debug] [2025-03-28T16:01:52.205Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/ai-resume-screener-45dc1 {"projectNumber":"891650288963","projectId":"ai-resume-screener-45dc1","lifecycleState":"ACTIVE","name":"ai-resume-screener","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-03-28T05:24:28.819737Z"}
+[info] 
+[info] === Serving from 'C:\ICP\resume-screener\Login\Login-Form'...
+[info] 
+[debug] [2025-03-28T16:01:52.210Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:52.211Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:52.211Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1/sites 
+[debug] [2025-03-28T16:01:53.345Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1/sites 200
+[debug] [2025-03-28T16:01:53.346Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1/sites {"sites":[{"name":"projects/ai-resume-screener-45dc1/sites/ai-resume-screener-45dc1","defaultUrl":"https://ai-resume-screener-45dc1.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-03-28T16:01:53.346Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:53.347Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:53.347Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1/webApps/-/config [none]
+[debug] [2025-03-28T16:01:54.327Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1/webApps/-/config 200
+[debug] [2025-03-28T16:01:54.327Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1/webApps/-/config {"projectId":"ai-resume-screener-45dc1","appId":"1:891650288963:web:0337d38e2be8c92e3553f6","storageBucket":"ai-resume-screener-45dc1.firebasestorage.app","apiKey":"AIzaSyDNJbszAnc7FhMxGNGdho18twjItrynWLM","authDomain":"ai-resume-screener-45dc1.firebaseapp.com","messagingSenderId":"891650288963","measurementId":"G-JKYCWE4Q2B"}
+[debug] [2025-03-28T16:01:54.338Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:54.339Z] Checked if tokens are valid: true, expires at: 1743181120207
+[debug] [2025-03-28T16:01:54.339Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1 [none]
+[debug] [2025-03-28T16:01:54.968Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1 200
+[debug] [2025-03-28T16:01:54.968Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ai-resume-screener-45dc1 {"projectId":"ai-resume-screener-45dc1","projectNumber":"891650288963","displayName":"ai-resume-screener","name":"projects/ai-resume-screener-45dc1","resources":{"hostingSite":"ai-resume-screener-45dc1"},"state":"ACTIVE","etag":"1_cbfb58ce-62e1-48c2-b9c5-abaa73e0d460"}
+[info] i  hosting[ai-resume-screener-45dc1]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[ai-resume-screener-45dc1]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [28/Mar/2025:16:01:59 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [28/Mar/2025:16:01:59 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [28/Mar/2025:16:01:59 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [28/Mar/2025:16:01:59 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [28/Mar/2025:16:01:59 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [28/Mar/2025:16:01:59 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [28/Mar/2025:16:02:02 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [28/Mar/2025:16:02:02 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36\""}}
