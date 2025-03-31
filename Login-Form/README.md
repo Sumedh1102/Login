@@ -1,18 +1,45 @@
-# Login Form in ReactJS Guide
+# Firebase Authentication Login Page
 
-## Open the Project
-1. Open the project folder in your VS Code.
+## Project Description
+This project is a login page built using React.js and Firebase Authentication. It allows users to sign up, log in, and log out using their email and password. Firebase handles authentication, ensuring secure user access.
 
-## Run the Project
-1. Open the VS Code terminal by pressing `Ctrl + J` and run the following commands:
-    `npm install` This command will install the necessary dependencies.
-    `npm run dev` This command will start the local development server.
+## Features
+- User Signup and Login
+- Firebase Authentication
+- Secure Password Storage
+- Logout Functionality
 
-Click on the `localhost` link that appears in the terminal to open the project in your browser and check its functionality.
+## Tech Stack
+- React.js (Frontend)
+- Firebase Authentication
 
-If you get an error or get stuck, feel free to message me on Buy Me a Coffee.
-[Buy Me A Coffee](https://www.buymeacoffee.com/codingnepal)
+## Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sumedh1102/Login.git
+      ```
 
----
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Happy coding!
+3. **Setup Firebase:**
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+   - Enable Authentication (Email/Password Sign-In)
+   - Configure Firebase settings in your project.
+
+4. **Run the project:**
+   ```bash
+   npm start
+   ```
+
+## Usage
+- **Sign Up:** Enter an email and password to create an account.
+- **Log In:** Use the registered credentials to log in.
+- **Log Out:** Click the logout button to sign out.
+
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
+
