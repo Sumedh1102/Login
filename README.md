@@ -1,4 +1,4 @@
-# Firebase Authentication Login Page
+# Firebase Authentication Login Page :
 
 ## Project Description
 This project is a login page built using React.js and Firebase Authentication. It allows users to sign up, log in, and log out using their email and password. Firebase handles authentication, ensuring secure user access.
